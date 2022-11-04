@@ -19,7 +19,7 @@ module.exports = function () {
       const db_usr = process.env.db_usr;
       const db_key = process.env.db_key;
       db =
-        "mongodb+srv://" +
+        "mongodb://" +
         db_usr +
         ":" +
         db_key +
